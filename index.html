@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <title>How's the Weather Over There?</title>
+  </head>
+    <body>
+      <div class="container">
+        <h1>Compare the Weather</h1>
+        <h4>Type in the zip codes of two places you would like to compare.</h4>
+          <form id="get-zip">
+            <label for="zip-first">Enter first zip code:</label>
+            <input id="zip-first" type="text">
+            <label for="zip-second">Enter second zip code:</label>
+            <input id="zip-second" type="text">
+            <button type="submit" class="btn-info">Look up</button>
+          </form>  
+        <ul class="weather">
+        </ul>
+        <ul class="temp-difference">
+        </ul>
+      </div>
+    </body>
+</html>
